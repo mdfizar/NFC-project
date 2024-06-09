@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="src/asst/img/favicon.png" type="image/x-icon" />
+  <title>Doverify | NFC Smart Card</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <!-- ====== custom css ====== -->
+  <link rel="stylesheet" href="src/asst/main.css">
+  <!-- ====== swiper ========== -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- ===== aos ======== -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+ <!-- ============ header =========== -->
+ <header>
+  <div style="max-width: 1450px; margin: 0px auto; padding: 0px 20px;">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+         <div class="w-100">
+           <!-- top  -->
+           <div style="padding-bottom: 4px;" class="d-flex justify-content-between w-100">
+            <a class="navbar-brand" href="#">
+              <img style="width: 150px;" src="src/asst/img/logo.png" alt="">
+            </a>
+            <!-- left-section -->
+            <div class="d-flex align-items-center gap-3">
+              <div class=" d-none d-lg-block">
+                <div class="d-flex align-items-center gap-3">
+                  <div class="pa1">Sales: +8801870846994</div>
+                  <div class="pa1">Support</div>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-1 pa1">
+                <i class="fa-solid fa-globe"></i>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <button class="tolggeicon d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="src/asst/img/download (1).svg" alt="Menu">
+              </button>
+            </div>
+          </div>
+          <!-- bottom -->
+          <div style="padding: 5px 0px;" class="d-flex align-items-center">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Solutions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Resources</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Partners</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                    Why Doverify NFC
+                  </a>
+                </li>
+              </ul>
+          </div>
+          <div style="margin-right: 20px;" class="d-flex d-none d-lg-block">
+            <div class="d-flex gap-3">
+              <div>search</div>
+              <div>Sign up</div>
+            </div>
+          </div>
+          <div class="d-flex d-none d-lg-block">
+            <a class="btn-orange text-light fw-bold" href="#">Request Demo</a>
+            <a class="btn-login" href="#">Log in</a>
+          </div>
+         </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+ </header>
+ <!-- ======= main-content ============ -->
+ <div class="mainContenr">
+    <div style="background-color: #003682; padding:20px;">
+      <div class="container firstTitle">
+      <span>
+        Cloudflare and CrowdStrike expand partnership to secure networks and AI SOC.
+      </span>
+      <a class="nfc-learn" href="#"><strong>Learn more</strong></a>
+    </div>
+  </div>
+  <!-- Connect, protect and build everywhere  -->
+  <section class="nfs-title">
+    <img class="w-100" src="src/asst/img/heroimg4.19.24.svg" alt="nfc-img">
+    <div class="content-container">
+      <div style="justify-content: center !important; text-align: center;" class="d-flex flex-column align-items-center">
+        <h3 class="connect">
+          Connect, protect and build everywhere
+        </h3>
+        <p class="mb-4">Put the connectivity cloud to work for you.</p>
+      </div>
+      <div class="container">
+        <div class="row gap-3 justify-content-center">
+          <div class="col-sm-12 col-md-3">
+            <button style="width:100%;" class="btn-orange">Learn more</button>
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <button style="width: 100%;" class="btn-login">Start for free</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==== service-card ======== -->
+  <div class="container service-item-box">
+    <div class="service-container-bg-img d-md-block d-lg-none">
+      <img class="w-100" src="src/asst/img/doverify-NFC-infographay.jpg" alt="">
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="service-card1" data-aos="fade-right">
+          <div class="d-flex align-items-center gap-2" >
+            <span><i class="fa-solid fa-shield-halved"></i></span>
+            <h4>Fully Secured</h4>
+          </div>
+          <p>
+            Regain visibility and control of IT and security across on-prem, public cloud, SaaS, and the Internet
+          </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="service-card2" data-aos="fade-left">
+          <div class="d-flex align-items-center gap-2">
+            <span><i class="fa-solid fa-square-check"></i></span>
+            <h4>One-time Use</h4>
+          </div>
+          <p>
+            Improve security and resilience while reducing your attack surface, vendor count, and tool sprawl
+          </p>
+        </div> 
+      </div>
+    </div>
+  </div>
+    <!-- ======= service-card-bg img ========= -->
+    <div class="service-container-bg-img d-none d-lg-block">
+      <img class="w-100" src="src/asst/img/doverify-NFC-infographay.jpg" alt="">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <div class="service-card1" data-aos="fade-right">
+            <div  class="d-flex aalign-items-center gap-2">
+              <span><i class="fa-solid fa-triangle-exclamation"></i></span>
+              <h4>Real Time Notification</h4>
+            </div>
+            <p>
+              Regain visibility and control of IT and security across on-prem, public cloud, SaaS, and the Internet
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="service-card2" data-aos="fade-left">
+            <div  class="d-flex aalign-items-center gap-2">
+              <span><i class="fa-solid fa-location-dot"></i></span>
+              <h4>Traceability</h4>
+            </div>
+            <p>
+              Improve security and resilience while reducing your attack surface, vendor count, and tool sprawl
+            </p>
+          </div> 
+        </div>
+      </div>
+  </div>
+<div class="container">
+  <div class="row pt-3 justify-content-center">
+    <div class="col-12 col-md-3 d-flex justify-content-center">
+      <a  class="btn-orange Contact-sales w-100" href="#">Contact sales</a>
+    </div>
+  </div>
+</div>
+
+  <!--  ========== whats new slider section ========== -->
+  <section class="pt-5">
+    <div class="container position-relative">
+      <div class="container overflow-hidden py-5">
+        <div class="swiper whatsNew_slider px-2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slide-item">
+                <div class="slide-item-text">
+                  <p class="heading mb-1 fw-4 text-start">press</p>
+                  <p class="text-start descripton">
+                    Cloudflare acquires BastionZero; adds Zero Trust infrastructure access for SASE platform
+                  </p>
+                  <button class="d-flex align-items-center read-btn">
+                    <p class="mb-0">Read more</p>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+                <div class="slide-item-img">
+                  <img class="w-100" src="https://www.shutterstock.com/image-illustration/governance-compliance-word-tag-cloud-260nw-192818624.jpg" alt=""> 
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-item">
+                <div class="slide-item-text">
+                  <p class="heading mb-1 fw-4 text-start">press</p>
+                  <p class="text-start descripton">
+                    Cloudflare acquires BastionZero; adds Zero Trust infrastructure access for SASE platform
+                  </p>
+                  <button class="d-flex align-items-center read-btn">
+                    <p class="mb-0">Read more</p>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+                <div class="slide-item-img">
+                  <img class="w-100" src="https://www.shutterstock.com/image-illustration/governance-compliance-word-tag-cloud-260nw-192818624.jpg" alt=""> 
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-item">
+                <div class="slide-item-text">
+                  <p class="heading mb-1 fw-4 text-start">press</p>
+                  <p class="text-start descripton">
+                    Cloudflare acquires BastionZero; adds Zero Trust infrastructure access for SASE platform
+                  </p>
+                  <button class="d-flex align-items-center read-btn">
+                    <p class="mb-0">Read more</p>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+                <div class="slide-item-img">
+                  <img class="w-100" src="https://www.shutterstock.com/image-illustration/governance-compliance-word-tag-cloud-260nw-192818624.jpg" alt=""> 
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-item">
+                <div class="slide-item-text">
+                  <p class="heading mb-1 fw-4 text-start">press</p>
+                  <p class="text-start descripton">
+                    Cloudflare acquires BastionZero; adds Zero Trust infrastructure access for SASE platform
+                  </p>
+                  <button class="d-flex align-items-center read-btn">
+                    <p class="mb-0">Read more</p>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+                <div class="slide-item-img">
+                  <img class="w-100" src="https://www.shutterstock.com/image-illustration/governance-compliance-word-tag-cloud-260nw-192818624.jpg" alt=""> 
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-item">
+                <div class="slide-item-text">
+                  <p class="heading mb-1 fw-4 text-start">press</p>
+                  <p class="text-start descripton">
+                    Cloudflare acquires BastionZero; adds Zero Trust infrastructure access for SASE platform
+                  </p>
+                  <button class="d-flex align-items-center read-btn">
+                    <p class="mb-0">Read more</p>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+                <div class="slide-item-img">
+                  <img class="w-100" src="https://www.shutterstock.com/image-illustration/governance-compliance-word-tag-cloud-260nw-192818624.jpg" alt=""> 
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-item">
+                <div class="slide-item-text">
+                  <p class="heading mb-1 fw-4 text-start">press</p>
+                  <p class="text-start descripton">
+                    Cloudflare acquires BastionZero; adds Zero Trust infrastructure access for SASE platform
+                  </p>
+                  <button class="d-flex align-items-center read-btn">
+                    <p class="mb-0">Read more</p>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+                <div class="slide-item-img">
+                  <img class="w-100" src="https://www.shutterstock.com/image-illustration/governance-compliance-word-tag-cloud-260nw-192818624.jpg" alt=""> 
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-item">
+                <div class="slide-item-text">
+                  <p class="heading mb-1 fw-4 text-start">press</p>
+                  <p class="text-start descripton">
+                    Cloudflare acquires BastionZero; adds Zero Trust infrastructure access for SASE platform
+                  </p>
+                  <button class="d-flex align-items-center read-btn">
+                    <p class="mb-0">Read more</p>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+                <div class="slide-item-img">
+                  <img class="w-100" src="https://www.shutterstock.com/image-illustration/governance-compliance-word-tag-cloud-260nw-192818624.jpg" alt=""> 
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-item">
+                <div class="slide-item-text">
+                  <p class="heading mb-1 fw-4 text-start">press</p>
+                  <p class="text-start descripton">
+                    Cloudflare acquires BastionZero; adds Zero Trust infrastructure access for SASE platform
+                  </p>
+                  <button class="d-flex align-items-center read-btn">
+                    <p class="mb-0">Read more</p>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+                <div class="slide-item-img">
+                  <img class="w-100" src="https://www.shutterstock.com/image-illustration/governance-compliance-word-tag-cloud-260nw-192818624.jpg" alt=""> 
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-item">
+                <div class="slide-item-text">
+                  <p class="heading mb-1 fw-4 text-start">press</p>
+                  <p class="text-start descripton">
+                    Cloudflare acquires BastionZero; adds Zero Trust infrastructure access for SASE platform
+                  </p>
+                  <button class="d-flex align-items-center read-btn">
+                    <p class="mb-0">Read more</p>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+                <div class="slide-item-img">
+                  <img class="w-100" src="https://www.shutterstock.com/image-illustration/governance-compliance-word-tag-cloud-260nw-192818624.jpg" alt=""> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next">
+            <svg fill="none" height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg"><path d="m27.0153 7.2225-2.0925 2.1375 13.4025 13.14h-33.81749v3h33.81749l-13.4025 13.14 2.0925 2.145 17.13-16.785z" fill="currentColor"></path></svg>
+          </div>
+          <div class="swiper-button-prev">
+            <svg fill="none" height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg"><path d="m20.9847 40.7775 2.0925-2.1375-13.40251-13.14h33.81751v-3h-33.81752l13.40252-13.13997-2.0925-2.145-17.13002 16.78497z" fill="currentColor"></path></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= why Choose us ========== -->
+   <div class="whyChoose">
+    <h3 class="section-heading"> Why Choose Us <span style="color:var(--btn1color);">?</span></h3>
+    <div class="container shadow">
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <div class="whychoose-left">
+            <div class="row">
+              <div class="col-md-6 lg-4">
+                <div class="whychoose-card">
+                  <h5>Innovative Technology</h5>
+                  <p>
+                    We are at the forefront of technological innovation, offering cutting-edge  NFC card solutions that revolutionize traditional networking practices.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 lg-4">
+                <div class="whychoose-card">
+                  <h5>Innovative Technology</h5>
+                  <p>
+                    We are at the forefront of technological innovation, offering cutting-edge  NFC card solutions that revolutionize traditional networking practices.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 lg-4">
+                <div class="whychoose-card">
+                  <h5>Innovative Technology</h5>
+                  <p>
+                    We are at the forefront of technological innovation, offering cutting-edge  NFC card solutions that revolutionize traditional networking practices.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 lg-4">
+                <div class="whychoose-card">
+                  <h5>Innovative Technology</h5>
+                  <p>
+                    We are at the forefront of technological innovation, offering cutting-edge  NFC card solutions that revolutionize traditional networking practices.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <div class="whychoose-right">
+            <div class="row">
+              <div class="col-md-6 lg-4">
+                <div class="whychoose-card">
+                  <h5>Innovative Technology</h5>
+                  <p>
+                    We are at the forefront of technological innovation, offering cutting-edge  NFC card solutions that revolutionize traditional networking practices.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 lg-4">
+                <div class="whychoose-card">
+                  <h5>Innovative Technology</h5>
+                  <p>
+                    We are at the forefront of technological innovation, offering cutting-edge  NFC card solutions that revolutionize traditional networking practices.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 lg-4">
+                <div class="whychoose-card">
+                  <h5>Innovative Technology</h5>
+                  <p>
+                    We are at the forefront of technological innovation, offering cutting-edge  NFC card solutions that revolutionize traditional networking practices.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 lg-4">
+                <div class="whychoose-card">
+                  <h5>Innovative Technology</h5>
+                  <p>
+                    We are at the forefront of technological innovation, offering cutting-edge  NFC card solutions that revolutionize traditional networking practices.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+
+  <!-- ========= User Case Features ========  -->
+   <div class="userCaseFeatures pb-5" data-aos="fade-up"
+   data-aos-anchor-placement="top-bottom">
+     <div class="container py-3">
+      <h3 class="mb-5 section-heading">User Features</h3>
+      <div class="row row-gap-3">
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="userCase-card">
+            <h5>Instant Sharing</h5>
+            <p>Share your professional profile and contact information instantly with a simple tap.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="userCase-card">
+            <h5>Seamless Connectivity</h5>
+            <p>
+              Connect with others on various social media platforms effortlessly.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="userCase-card">
+            <h5>Personalization</h5>
+            <p>
+              Customize your NFC card with a photo to make it uniquely yours.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="userCase-card">
+            <h5>Real-time Updates</h5>
+            <p>
+              your profile information anytime, anywhere, ensuring accuracy for your contacts.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="userCase-card">
+            <h5>Universal Compatibility</h5>
+            <p>
+              Compatible with all modern devices supporting NFC features, with QR code scanning options for others.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="userCase-card">
+            <h5>Multiple Use</h5>
+            <p>
+              Utilize your NFC card as many times as needed, with all information accessible every time.
+               
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="userCase-card">
+            <h5>Environmental Consciousness</h5>
+            <p>
+              Reduce paper waste and contribute to sustainability by opting for a digital networking solution.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="userCase-card">
+            <h5>Dynamic Profile</h5>
+            <p>
+              Keep your network updated with real-time changes, ensuring accurate and current information for all interactions.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="userCase-card">
+            <h5>Premium Options</h5>
+            <p>
+              Choose from a selection of high-quality NFC plastic cards or create your own custom-designed card for a professional touch.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="userCase-card">
+            <h5>User-Friendly</h5>
+            <p>
+              Easy to use and understand, enhancing your networking experience with innovative technology.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="userCase-card">
+            <h5>Premium Options</h5>
+            <p>
+              Choose from a selection of high-quality NFC plastic cards or create your own custom-designed card for a professional touch.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="userCase-card">
+            <h5>User-Friendly</h5>
+            <p>
+              Easy to use and understand, enhancing your networking experience with innovative technology.
+            </p>
+          </div>
+        </div>
+
+      </div>
+     </div>
+   </div>
+
+   <!-- ========== FQA =========== -->
+    <div class="fqa">
+      <h3 class="section-heading">FQA <span style="color:var(--btn1color);">?</span></h3>
+      <div class="container">
+        <h2 class="text-center">Where Are Some Frequently Asked Questions</h2>
+      </div>
+
+    </div>
+</div>
+  <!-- ========= footer =============== -->
+  <footer>
+    <div class="footer-container">
+      <!-- ========= top ============= -->
+      <div class="container py-5 d-none d-lg-block">
+        <div class="row">
+          <div class="col-lg-2">
+            <p>Getting Started</p>
+             <ul class="footer-item-container">
+              <li><a href="#">Free plans</a></li>
+              <li><a href="#">For enterprises</a></li>
+              <li><a href="#">Get a recommendation</a></li>
+              <li><a href="#">Get a recommendation</a></li>
+              <li><a href="#">Free plans</a></li>
+              <li><a href="#">For enterprises</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-2">
+            <p>Getting Started</p>
+             <ul class="footer-item-container">
+              <li><a href="#">Free plans</a></li>
+              <li><a href="#">For enterprises</a></li>
+              <li><a href="#">Get a recommendation</a></li>
+              <li><a href="#">Get a recommendation</a></li>
+              <li><a href="#">Free plans</a></li>
+              <li><a href="#">For enterprises</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-2">
+            <p>Getting Started</p>
+             <ul class="footer-item-container">
+              <li><a href="#">Free plans</a></li>
+              <li><a href="#">For enterprises</a></li>
+              <li><a href="#">Get a recommendation</a></li>
+              <li><a href="#">Get a recommendation</a></li>
+              <li><a href="#">Free plans</a></li>
+              <li><a href="#">For enterprises</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-2">
+            <p>Getting Started</p>
+             <ul class="footer-item-container">
+              <li><a href="#">Free plans</a></li>
+              <li><a href="#">For enterprises</a></li>
+              <li><a href="#">Get a recommendation</a></li>
+              <li><a href="#">Get a recommendation</a></li>
+              <li><a href="#">Free plans</a></li>
+              <li><a href="#">For enterprises</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-2">
+            <p>Getting Started</p>
+             <ul class="footer-item-container">
+              <li><a href="#">Free plans</a></li>
+              <li><a href="#">For enterprises</a></li>
+              <li><a href="#">Get a recommendation</a></li>
+              <li><a href="#">Get a recommendation</a></li>
+              <li><a href="#">Free plans</a></li>
+              <li><a href="#">For enterprises</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-2">
+            <p>Getting Started</p>
+             <ul class="footer-item-container">
+              <li><a href="#">Free plans</a></li>
+              <li><a href="#">For enterprises</a></li>
+              <li><a href="#">Get a recommendation</a></li>
+              <li><a href="#">Get a recommendation</a></li>
+              <li><a href="#">Free plans</a></li>
+              <li><a href="#">For enterprises</a></li>
+             </ul>
+          </div>
+        </div>
+      </div>
+      <!-- ====== small screen footer ======== -->
+       <div class="d-block d-lg-none">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <p class="m-0">Why Doverify NFC</p>
+                <span><i class="fa-solid fa-chevron-down"></i></span>
+              </button>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul>
+                  <li><a href="#">Free plans</a></li>
+                  <li><a href="#">For enterprises</a></li>
+                  <li><a href="#">Get a recommendation</a></li>
+                  <li><a href="#">Get a recommendation</a></li>
+                  <li><a href="#">Free plans</a></li>
+                  <li><a href="#">For enterprises</a></li>
+                 </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <p class="m-0">Solutions</p>
+                <span><i class="fa-solid fa-chevron-down"></i></span>
+              </button>
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam esse quos deserunt, omnis, quam porro nemo debitis consequuntur pariatur distinctio sequi, corrupti praesentium enim tempora earum culpa architecto ea quod.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <p class="m-0">Products
+                </p>
+                <span><i class="fa-solid fa-chevron-down"></i></span>
+              </button>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tenetur temporibus necessitatibus quae error sint veritatis provident ab alias. Beatae debitis itaque quae ea perspiciatis aspernatur, esse cupiditate dolorem nam
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <p class="m-0">Resources</p>
+                <span><i class="fa-solid fa-chevron-down"></i></span>
+              </button>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quasi veritatis, earum neque impedit nesciunt, magnam vel repellendus itaque adipisci aut sunt eligendi inventore. Quae maxime ipsam minus perspiciatis exercitationem.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <p class="m-0">Pricing</p>
+                <span><i class="fa-solid fa-chevron-down"></i></span>
+              </button>
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora ullam obcaecati dolore veniam iste numquam repellendus quibusdam magnam animi molestiae? Eligendi distinctio eum sunt molestiae sit consequuntur doloribus sequi velit
+            </div>
+          </div>
+        </div>
+       </div>
+
+      <!-- ========= bottom ========== -->
+      <div class="container pb-5">
+        <div class="d-flex align-items-center gap-5 flex-column flex-md-row icon-container">
+          <div class="footer-icon d-flex align-items-center gap-2">
+            <span>
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32Z" fill="white"></path><path d="M10.2965 16.7999H12.9405V27.6799C12.9405 27.786 12.9826 27.8877 13.0576 27.9628C13.1327 28.0378 13.2344 28.0799 13.3405 28.0799H17.8205C17.9266 28.0799 18.0283 28.0378 18.1033 27.9628C18.1783 27.8877 18.2205 27.786 18.2205 27.6799V16.8359H21.2605C21.3575 16.8369 21.4516 16.8025 21.5252 16.7392C21.5988 16.6759 21.6469 16.588 21.6605 16.4919L22.1205 12.4919C22.1255 12.4364 22.1189 12.3805 22.101 12.3278C22.0832 12.275 22.0545 12.2265 22.0169 12.1855C21.9792 12.1445 21.9334 12.1117 21.8824 12.0894C21.8313 12.0671 21.7762 12.0557 21.7205 12.0559H18.2005V9.53992C18.2005 8.78392 18.6005 8.39992 19.4005 8.39992H21.6925C21.7986 8.39992 21.9003 8.35778 21.9753 8.28276C22.0503 8.20775 22.0925 8.10601 22.0925 7.99992V4.31992C22.0925 4.21384 22.0503 4.11209 21.9753 4.03708C21.9003 3.96206 21.7986 3.91992 21.6925 3.91992H18.4005C16.9464 3.92501 15.5431 4.45481 14.4485 5.41192C13.9315 5.8638 13.5348 6.43694 13.294 7.07992C13.0531 7.7229 12.9756 8.41561 13.0685 9.09592V12.0319H10.2965C10.1904 12.0319 10.0887 12.0741 10.0136 12.1491C9.93863 12.2241 9.89648 12.3258 9.89648 12.4319V16.3999C9.89648 16.506 9.93863 16.6077 10.0136 16.6828C10.0887 16.7578 10.1904 16.7999 10.2965 16.7999Z" fill="#070033"></path></svg>
+            </span>
+            <span>
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32Z" fill="white"></path><path d="M10.2965 16.7999H12.9405V27.6799C12.9405 27.786 12.9826 27.8877 13.0576 27.9628C13.1327 28.0378 13.2344 28.0799 13.3405 28.0799H17.8205C17.9266 28.0799 18.0283 28.0378 18.1033 27.9628C18.1783 27.8877 18.2205 27.786 18.2205 27.6799V16.8359H21.2605C21.3575 16.8369 21.4516 16.8025 21.5252 16.7392C21.5988 16.6759 21.6469 16.588 21.6605 16.4919L22.1205 12.4919C22.1255 12.4364 22.1189 12.3805 22.101 12.3278C22.0832 12.275 22.0545 12.2265 22.0169 12.1855C21.9792 12.1445 21.9334 12.1117 21.8824 12.0894C21.8313 12.0671 21.7762 12.0557 21.7205 12.0559H18.2005V9.53992C18.2005 8.78392 18.6005 8.39992 19.4005 8.39992H21.6925C21.7986 8.39992 21.9003 8.35778 21.9753 8.28276C22.0503 8.20775 22.0925 8.10601 22.0925 7.99992V4.31992C22.0925 4.21384 22.0503 4.11209 21.9753 4.03708C21.9003 3.96206 21.7986 3.91992 21.6925 3.91992H18.4005C16.9464 3.92501 15.5431 4.45481 14.4485 5.41192C13.9315 5.8638 13.5348 6.43694 13.294 7.07992C13.0531 7.7229 12.9756 8.41561 13.0685 9.09592V12.0319H10.2965C10.1904 12.0319 10.0887 12.0741 10.0136 12.1491C9.93863 12.2241 9.89648 12.3258 9.89648 12.4319V16.3999C9.89648 16.506 9.93863 16.6077 10.0136 16.6828C10.0887 16.7578 10.1904 16.7999 10.2965 16.7999Z" fill="#070033"></path></svg>
+            </span>
+            <span>
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32Z" fill="white"></path><path d="M10.2965 16.7999H12.9405V27.6799C12.9405 27.786 12.9826 27.8877 13.0576 27.9628C13.1327 28.0378 13.2344 28.0799 13.3405 28.0799H17.8205C17.9266 28.0799 18.0283 28.0378 18.1033 27.9628C18.1783 27.8877 18.2205 27.786 18.2205 27.6799V16.8359H21.2605C21.3575 16.8369 21.4516 16.8025 21.5252 16.7392C21.5988 16.6759 21.6469 16.588 21.6605 16.4919L22.1205 12.4919C22.1255 12.4364 22.1189 12.3805 22.101 12.3278C22.0832 12.275 22.0545 12.2265 22.0169 12.1855C21.9792 12.1445 21.9334 12.1117 21.8824 12.0894C21.8313 12.0671 21.7762 12.0557 21.7205 12.0559H18.2005V9.53992C18.2005 8.78392 18.6005 8.39992 19.4005 8.39992H21.6925C21.7986 8.39992 21.9003 8.35778 21.9753 8.28276C22.0503 8.20775 22.0925 8.10601 22.0925 7.99992V4.31992C22.0925 4.21384 22.0503 4.11209 21.9753 4.03708C21.9003 3.96206 21.7986 3.91992 21.6925 3.91992H18.4005C16.9464 3.92501 15.5431 4.45481 14.4485 5.41192C13.9315 5.8638 13.5348 6.43694 13.294 7.07992C13.0531 7.7229 12.9756 8.41561 13.0685 9.09592V12.0319H10.2965C10.1904 12.0319 10.0887 12.0741 10.0136 12.1491C9.93863 12.2241 9.89648 12.3258 9.89648 12.4319V16.3999C9.89648 16.506 9.93863 16.6077 10.0136 16.6828C10.0887 16.7578 10.1904 16.7999 10.2965 16.7999Z" fill="#070033"></path></svg>
+            </span>
+            <span>
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32Z" fill="white"></path><path d="M10.2965 16.7999H12.9405V27.6799C12.9405 27.786 12.9826 27.8877 13.0576 27.9628C13.1327 28.0378 13.2344 28.0799 13.3405 28.0799H17.8205C17.9266 28.0799 18.0283 28.0378 18.1033 27.9628C18.1783 27.8877 18.2205 27.786 18.2205 27.6799V16.8359H21.2605C21.3575 16.8369 21.4516 16.8025 21.5252 16.7392C21.5988 16.6759 21.6469 16.588 21.6605 16.4919L22.1205 12.4919C22.1255 12.4364 22.1189 12.3805 22.101 12.3278C22.0832 12.275 22.0545 12.2265 22.0169 12.1855C21.9792 12.1445 21.9334 12.1117 21.8824 12.0894C21.8313 12.0671 21.7762 12.0557 21.7205 12.0559H18.2005V9.53992C18.2005 8.78392 18.6005 8.39992 19.4005 8.39992H21.6925C21.7986 8.39992 21.9003 8.35778 21.9753 8.28276C22.0503 8.20775 22.0925 8.10601 22.0925 7.99992V4.31992C22.0925 4.21384 22.0503 4.11209 21.9753 4.03708C21.9003 3.96206 21.7986 3.91992 21.6925 3.91992H18.4005C16.9464 3.92501 15.5431 4.45481 14.4485 5.41192C13.9315 5.8638 13.5348 6.43694 13.294 7.07992C13.0531 7.7229 12.9756 8.41561 13.0685 9.09592V12.0319H10.2965C10.1904 12.0319 10.0887 12.0741 10.0136 12.1491C9.93863 12.2241 9.89648 12.3258 9.89648 12.4319V16.3999C9.89648 16.506 9.93863 16.6077 10.0136 16.6828C10.0887 16.7578 10.1904 16.7999 10.2965 16.7999Z" fill="#070033"></path></svg>
+            </span>
+            <span>
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32Z" fill="white"></path><path d="M10.2965 16.7999H12.9405V27.6799C12.9405 27.786 12.9826 27.8877 13.0576 27.9628C13.1327 28.0378 13.2344 28.0799 13.3405 28.0799H17.8205C17.9266 28.0799 18.0283 28.0378 18.1033 27.9628C18.1783 27.8877 18.2205 27.786 18.2205 27.6799V16.8359H21.2605C21.3575 16.8369 21.4516 16.8025 21.5252 16.7392C21.5988 16.6759 21.6469 16.588 21.6605 16.4919L22.1205 12.4919C22.1255 12.4364 22.1189 12.3805 22.101 12.3278C22.0832 12.275 22.0545 12.2265 22.0169 12.1855C21.9792 12.1445 21.9334 12.1117 21.8824 12.0894C21.8313 12.0671 21.7762 12.0557 21.7205 12.0559H18.2005V9.53992C18.2005 8.78392 18.6005 8.39992 19.4005 8.39992H21.6925C21.7986 8.39992 21.9003 8.35778 21.9753 8.28276C22.0503 8.20775 22.0925 8.10601 22.0925 7.99992V4.31992C22.0925 4.21384 22.0503 4.11209 21.9753 4.03708C21.9003 3.96206 21.7986 3.91992 21.6925 3.91992H18.4005C16.9464 3.92501 15.5431 4.45481 14.4485 5.41192C13.9315 5.8638 13.5348 6.43694 13.294 7.07992C13.0531 7.7229 12.9756 8.41561 13.0685 9.09592V12.0319H10.2965C10.1904 12.0319 10.0887 12.0741 10.0136 12.1491C9.93863 12.2241 9.89648 12.3258 9.89648 12.4319V16.3999C9.89648 16.506 9.93863 16.6077 10.0136 16.6828C10.0887 16.7578 10.1904 16.7999 10.2965 16.7999Z" fill="#070033"></path></svg>
+            </span>
+
+           
+          </div>
+          <div class="d-flex gap-1">
+            <a href="#">© 2024 Cloudflare, Inc. |</a>  
+            <a href="#">Privacy Policy |</a>
+            <a href="#">Terms of Use |</a>
+            <a href="#">Report Security Issues |</a>
+            <a href="#">Cookie Preferences |</a>
+            <a href="#">Trademark</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- ========= swiper ============ -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <!-- ======== aos ======= -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="src/main.js"></script>
+</body>
+</html>
