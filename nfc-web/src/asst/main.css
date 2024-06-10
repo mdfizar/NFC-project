@@ -208,7 +208,8 @@ header {
 }
 /* ========= why choose us ============ */
 .shadow {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: -20px;
+  box-shadow: none !important;
 }
 .whychoose-card {
   padding: 10px;
@@ -219,14 +220,25 @@ header {
   height: 100%;
   border-radius: 7px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
 }
 .userCase-card h5 {
   font-size: 16px;
   color:#ff5b12;
+  font-weight: 700;
 }
 .userCase-card p {
   font-size: 13px;
   font-family: sans-serif;
+  transition: all 0.5s ease-in-out;
+}
+.userCase-card:hover {
+  background-color: #250f6b;
+  margin-top: -10px;
+}
+.userCase-card:hover p {
+  color: white;
 }
 /* ============== footer ============== */
 .footer-container{
@@ -326,5 +338,8 @@ header {
   }
   .service-item-box {
     padding-top: 6.5rem;
+  }
+  .iphone {
+    max-width: 500px;
   }
 }
