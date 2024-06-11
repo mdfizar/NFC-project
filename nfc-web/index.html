@@ -35,9 +35,26 @@
                   <div class="pa1">Support</div>
                 </div>
               </div>
-              <div class="d-flex align-items-center gap-1 pa1">
+               <!-- ======= langauge dropdown menu ========= -->
+              <div class="Dropdwon d-flex align-items-center gap-1 pa1">
                 <i class="fa-solid fa-globe"></i>
                 <i class="fa-solid fa-angle-down"></i>
+                <div class="Dropdown-item">
+                  <ul>
+                    <li><a href="#" onclick="event.preventDefault();">Bangla</a></li>
+                    <li><a href="#" onclick="event.preventDefault();">English</a></li>
+                    <li><a href="#" onclick="event.preventDefault();">Bangla</a></li>
+                    <li><a href="#" onclick="event.preventDefault();">English</a></li>
+                    <li><a href="#" onclick="event.preventDefault();">Bangla</a></li>
+                    <li><a href="#" onclick="event.preventDefault();">English</a></li>
+                    <li><a href="#" onclick="event.preventDefault();">Bangla</a></li>
+                    <li><a href="#" onclick="event.preventDefault();">English</a></li>
+                    <li><a href="#" onclick="event.preventDefault();">Bangla</a></li>
+                    <li><a href="#" onclick="event.preventDefault();">English</a></li>
+                    <li><a href="#" onclick="event.preventDefault();">Bangla</a></li>
+                    <li><a href="#" onclick="event.preventDefault();">English</a></li>
+                  </ul>
+                </div>
               </div>
               <button class="tolggeicon d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <img src="src/asst/img/download (1).svg" alt="Menu">
@@ -52,7 +69,13 @@
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Products</a>
+                      <div class="product-dropdown">
+                        <a onclick="event.preventDefault();" class="nav-link active" aria-current="page" href="#"> Products</a>
+                        <div class="product-dropdown-item">
+                          <a class="nav-link" href="#">NFC Smart Card</a>
+                          <a class="nav-link" href="#">NFC Business Card</a>
+                        </div>
+                      </div>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Features</a>
@@ -69,6 +92,11 @@
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">
                     NFC Smart Card
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                      Become a Reseller
                   </a>
                 </li>
               </ul>
@@ -123,7 +151,7 @@
       </section>
       <!-- ======= doverify-step section ======= -->
     <section class="pb-5">
-      <h1 class="text-center mb-5">how It Works</h1>
+      <h3 class="section-heading pb-5">How It Works</h3>
       <div class="container">
         <div class="row row-gap-5 doverify-step-container">
           <div class="col-12 md-6 col-lg-3">
@@ -272,17 +300,11 @@
        </div>
      </div>
     <!-- ==== service-card ======== -->
-     <section>
-      <div >
-        <h3 class="section-heading"> Why Choose Us <span style="color:var(--btn1color);">?</span></h3>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#250f6b" fill-opacity="1" d="M0,0L26.7,21.3C53.3,43,107,85,160,96C213.3,107,267,85,320,90.7C373.3,96,427,128,480,160C533.3,192,587,224,640,202.7C693.3,181,747,107,800,85.3C853.3,64,907,96,960,133.3C1013.3,171,1067,213,1120,197.3C1173.3,181,1227,107,1280,80C1333.3,53,1387,75,1413,85.3L1440,96L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
-      </div>
-       <div class="container service-item-box">
-      <div class="service-container-bg-img d-md-block d-lg-none">
-        <img class="w-100" src="src/asst/img/doverify-NFC-infographay.jpg" alt="">
-      </div>
-      
-      </div>
+     <section class="pt-4">
+      <!-- <div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 250"><path fill="#ff5b12" fill-opacity="1" d="M0,0L26.7,21.3C53.3,43,107,85,160,96C213.3,107,267,85,320,90.7C373.3,96,427,128,480,160C533.3,192,587,224,640,202.7C693.3,181,747,107,800,85.3C853.3,64,907,96,960,133.3C1013.3,171,1067,213,1120,197.3C1173.3,181,1227,107,1280,80C1333.3,53,1387,75,1413,85.3L1440,96L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
+      </div> -->
+      <h3 class="section-heading pb-5"> Why Choose Us <span style="color:var(--btn1color);">?</span></h3>
       <div class="container service-item-box">
         <div class="service-container-bg-img d-md-block d-lg-none">
           <img class="w-100" src="src/asst/img/doverify-NFC-infographay.jpg" alt="">
@@ -434,6 +456,29 @@
       </div> 
       <!-- svg  -->
     </div>
+    <!-- ========= oder mangement section ========== -->
+    <section>
+      <div class="container">
+        <div class="icon-box-border">
+          <div class="benefit-icon-container">
+            <div class="benefit-icon-box">
+              <span>
+                <i class="fa-solid fa-gear"></i>
+              </span>
+              <div class="icon-box-arrow">
+                <div class="hel">
+                  <div class="top-hel"></div>
+                  <div class="bottom-hel"></div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="benefit-desciription">
+              <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis.</p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- ========= pricing section =========== -->
     <section class="py-5">
         <h3 class="section-heading mb-4">PRICING</h3>
@@ -556,13 +601,15 @@
               <div class="col-12 col-md-6">
                 <div class="ourecard-card">
                   <div style="background-color: #d7d5d6;" class="our-card-ovarly"></div>
+                  <p class="text-center">smart card</p>
+                  <img class="w-100" src="src/Nfc smart card-3.jpg" alt="">
                 </div>
               </div>
               <div class="col-12 col-md-6">
                 <div class="ourecard-card">
                   <div style="background-color: #efc29d;" class="our-card-ovarly"></div>
                   <p>Weaknesses</p>
-                  <h1 style="color: #decbba;">W</h1>
+                  <img class="w-100" src="src/Nfc smart card-2.jpg" alt="">
                 </div>
               </div>
             </div>
@@ -573,20 +620,138 @@
                 <div class="ourecard-card">
                   <div style="background-color: #d1bfb5;" class="our-card-ovarly"></div>
                   <p class="text-start">Opportunities</p>
-                  <h1 style="color: #d1ac99;">O</h1>
+                  <img class="w-100" src="src/Nfc smart card-3.jpg" alt="">
                 </div>
               </div>
               <div class="col-12 col-md-6">
                 <div class="ourecard-card">
                   <div style="background-color: #ff5b12;" class="our-card-ovarly"></div>
                   <p>Threats</p>
-                  <h1 style="color: #ff5b12;">T</h1>
+                  <img class="w-100" src="src/Nfc smart card-4.jpg" alt="">
                 </div>
               </div>
             </div>
           </div>
         </div>
     </section>
+
+    <!-- ======== benefits of doverify NFC ========== -->
+     <section>
+     <h3 class="section-heading">Benefits of Doverify NFC</h3>
+     <div class="container pt-4">
+        <div class="row">
+          <div class="col-12 col-md-3 col-lg-2">
+            <div class="benefit-icon-container">
+              <div class="benefit-icon-box">
+                <span>
+                  <i class="fa-solid fa-gear"></i>
+                </span>
+                <div class="icon-box-arrow">
+                  <div class="hel">
+                    <div class="top-hel"></div>
+                    <div class="bottom-hel"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="benefit-desciription">
+                <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-2">
+            <div class="benefit-icon-container">
+              <div style="border-color: #250f6d;" class="benefit-icon-box">
+                <span>
+                  <i style="color: #250f6b;" class="fa-solid fa-gear"></i>
+                </span>
+                <div class="icon-box-arrow">
+                  <div style="border-color:#250f6b;" class="hel">
+                    <div style="background-color: #250f6b;" class="top-hel"></div>
+                    <div style=" background-color: #250f6b;" class="bottom-hel"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="benefit-desciription">
+                <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-2">
+            <div class="benefit-icon-container">
+              <div class="benefit-icon-box">
+                <span>
+                  <i class="fa-solid fa-gear"></i>
+                </span>
+                <div class="icon-box-arrow">
+                  <div class="hel">
+                    <div class="top-hel"></div>
+                    <div class="bottom-hel"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="benefit-desciription">
+                <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-2">
+            <div class="benefit-icon-container">
+              <div class="benefit-icon-box">
+                <span>
+                  <i class="fa-solid fa-gear"></i>
+                </span>
+                <div class="icon-box-arrow">
+                  <div class="hel">
+                    <div class="top-hel"></div>
+                    <div class="bottom-hel"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="benefit-desciription">
+                <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-2">
+            <div class="benefit-icon-container">
+              <div class="benefit-icon-box">
+                <span>
+                  <i class="fa-solid fa-gear"></i>
+                </span>
+                <div class="icon-box-arrow">
+                  <div class="hel">
+                    <div class="top-hel"></div>
+                    <div class="bottom-hel"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="benefit-desciription">
+                <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 col-lg-2">
+            <div class="benefit-icon-container">
+              <div class="benefit-icon-box">
+                <span>
+                  <i class="fa-solid fa-gear"></i>
+                </span>
+                <div class="icon-box-arrow">
+                  <div class="hel">
+                    <div class="top-hel"></div>
+                    <div class="bottom-hel"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="benefit-desciription">
+                <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+     </div>
+     </section>
     <!--  ========== whats new slider section ========== -->
     <section class="pt-5">
       <div class="container position-relative">
@@ -758,10 +923,34 @@
       </div>
     </section>
     <!-- ========== FQA =========== -->
-    <div class="fqa">
-        <h3 class="section-heading">FQA <span style="color:var(--btn1color);">?</span></h3>
+    <div class="faq">
+      <div class="faq-content">
         <div class="container">
-          <h2 class="text-center">Where Are Some Frequently Asked Questions</h2>
+          <h3 class="section-heading pt-4 m-0">FQA <span style="color:var(--btn1color);">?</span></h3>
+          <h2 class="text-center pb-4 m-0">Where Are Some Frequently Asked Questions</h2>
+          <div class="row faq-flex-box">
+            <div class="col-12 col-lg-6">
+              <div style="margin: auto;">
+                <img class="w-100"  src="src/asst/img/doverify-NFC-infographay.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div onclick="faqItemHanddle ();" >
+                   <div class="faq-item d-flex justify-content-between">
+                    <p>
+                      How the customer understands it is the original product?
+                    </p>
+                     <span>
+                      <i class="fa-solid fa-plus"></i>
+                     </span>
+                   </div>
+                   <div id="faq-ans" class="faq-ans">
+                    <p class="m-0"><b>Answer:</b> Customers can verify your product’s authenticity and view product information by scanning the QR code on any mobile device.</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
         </div>
 
     </div>

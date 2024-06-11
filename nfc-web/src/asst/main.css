@@ -81,6 +81,42 @@ header {
 .navbar-nav li a:hover {
   color: var(--text-color) !important;
 }
+/* ======= dropwdown ======== */
+.Dropdwon {
+  position: relative;
+  cursor: pointer;
+}
+.Dropdown-item {
+  position: absolute;
+  top: 35px;
+  right: 0px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 150px;
+  display: none;
+}
+.Dropdown-item ul li {
+  list-style-type: none;
+}
+.Dropdown-item ul li a {
+  text-decoration: none;
+  color: black;
+}
+.Dropdown-item ul li a:focus {
+  color:red;
+}
+.product-dropdown {
+  position: relative;
+}
+.product-dropdown-item {
+  position: absolute;
+  background-color: #ffff;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 200px;
+  padding: 15px 10px;
+  display: none;
+}
 
 
 
@@ -240,6 +276,40 @@ header {
 .userCase-card:hover p {
   color: white;
 }
+
+
+
+/* ======= faq section ========= */
+.faq-item {
+  padding: 7px 10px;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} 
+.faq-item p {
+  margin: 0px;
+}
+.faq-ans {
+  margin-top: 10px;
+  border-radius: 7px;
+  height: 0px;
+  color: #250f6b;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ============== footer ============== */
 .footer-container{
   background-color: #070033;
@@ -314,11 +384,7 @@ header {
 
 
 /* ========= responsive ========= */
-@media (max-width: 766px) {
-  .mainContenr {
-    padding-top: 76px;
-  }
-
+@media (min-width: 200px) and (max-width: 766px) {
 
   /* ====== whats new slider =========== */
   .swiper-button-prev {
@@ -335,9 +401,6 @@ header {
   }
   .content-container {
     top: 35%;
-  }
-  .service-item-box {
-    padding-top: 6.5rem;
   }
   .iphone {
     max-width: 500px;
