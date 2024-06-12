@@ -1,0 +1,533 @@
+/* ======= galobal css ========== */
+:root {
+  --btn1color: #ff5b12;
+  --text-color: #293a4e;
+  --border-radius: 7px;
+  --pa1: 8px;
+  --navfont: 14px;
+  --text-white: #ffffff;
+  --bascolor: #250f6b;
+}
+.pa1 {
+  padding: var(--pa1);
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,Cantarell,  Fira Sans,Droid Sans, Helvetica Neue, sans-serif !important;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color:var(--text-color);
+}
+.btn-orange {
+  text-decoration: none;
+  text-align: center;
+  background-color: var(--btn1color);
+  color: var(--text-white);
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 16px;
+  transition: 0.4s;
+
+}
+.btn-orange:hover {
+  background-color: #f7912a;
+}
+.btn-login {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 16px;
+  border: 1px solid var(--btn1color);
+  border-radius: var(--border-radius);
+  color: var(--text-color);
+  transition: 0.4s;
+}
+.btn-login:hover {
+  background-color: #ff591268;
+}
+/* ========= section heading =========== */
+.section-heading {
+  color: var(--bascolor);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+ /* ======== description ========= */
+ .descripton {
+  font-size: 20px;
+  color: var(--text-color);
+ }
+
+
+
+
+
+
+/* ======== header =============== */
+header {
+  position: fixed;
+  top:0px;
+  left: 0px;
+  right: 0px;
+  background-color: #ffffff;
+  border-bottom: 1px solid gray;
+  z-index: 90;
+}
+.tolggeicon {
+  border: none;
+  background: none;
+}
+.tolggeicon img {
+  width: 30px;
+}
+.navbar-nav li a {
+  color: #5e5e5e !important;
+  font-size: var(--navfont);
+  font-weight: 500;
+}
+.navbar-nav li a:hover {
+  color: var(--text-color) !important;
+}
+.navbar-nav li a:focus {
+  border-bottom: 2px solid var(--btn1color);
+}
+/* ======= dropwdown ======== */
+.Dropdwon {
+  position: relative;
+  cursor: pointer;
+}
+.Dropdown-item {
+  position: absolute;
+  top: 35px;
+  right: 0px;
+  background-color: #ffffffff;
+  border-radius: 7px;
+  width: 150px;
+  height: 0px;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.Dropdwon:hover .Dropdown-item {
+  height: 150px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.Dropdown-item ul li {
+  list-style-type: none;
+}
+.Dropdown-item ul li a {
+  text-decoration: none;
+  color: black;
+}
+.Dropdown-item ul li a:focus {
+  color:red;
+}
+/*  ======= product dropdown ======== */
+.product-dropdown {
+  position: relative;
+}
+.product-dropdown-item {
+  position: absolute;
+  background-color: #ffff;
+  width: 200px;
+  overflow: hidden;
+  height: 0px;
+  transition: all 0.5s ease-in-out;
+}
+.product-dropdown:hover .product-dropdown-item  {
+  height: 100px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+
+
+/*============ mainContent ============= */
+.mainContenr {
+  padding-top:114px;
+}
+.firstTitle {
+  text-align:center;
+  color: #ffffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+.firstTitle .nfc-learn {
+  text-underline-offset: 4px;
+  color: #ffffffff;
+  font-size: 16px;
+}
+.nfc-headline h2 {
+  font-size: 55px;
+  color: var(--text-color);
+  line-height: 65px;
+  font-weight: 700;
+}
+.nfc-headline p {
+  font-size: 20px;
+}
+
+/* ========= why choose us =========== */
+.service-container-bg-img {
+  max-width: 600px;
+  margin: 0px auto;
+}
+.service-card1, .service-card2 {
+  width: 300px;
+}
+.service-card1 h4, .service-card2 h4 {
+  font-weight: 400;
+  margin: 0px;
+  font-size: 26px;
+  color: var(--btn1color);
+  
+}
+.service-card1 span i, .service-card2 span i {
+  font-size: 26px;
+  color: #ff5b12;
+}
+.service-card2 {
+  margin-left: auto;
+}
+
+
+
+
+
+/* ========= our teqnology ============ */
+.shadow {
+  margin-top: -20px;
+  box-shadow: none !important;
+}
+.ourTeqnology-card{
+  padding: 10px;
+}
+
+
+
+
+
+
+/* ======== benefit of  NFC ======== */
+.benefit-icon-container {
+  width: 200px;
+}
+.benefit-icon-container .benefit-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 130px;
+  border: 1px solid red;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+}
+.icon-box-arrow {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+}
+.benefit-icon-box span i {
+  font-size: 30px;
+}
+.hel {
+  position: relative;
+  height: 40px;
+  border: 1px solid red;
+  width: 0px
+
+}
+.top-hel {
+  width: 7px;
+  height: 7px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: -3px;
+  left: -3.4px;
+}
+.bottom-hel {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  bottom: -4px;
+  left: -5.3px;
+}
+.benefit-desciription {
+  padding-top: 40px;
+}
+
+
+
+
+
+/* =========== user case features =========== */
+.userCase-card {
+  padding: 30px;
+  height: 100%;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.userCase-card h5 {
+  font-size: 16px;
+  color:#ff5b12;
+  font-weight: 700;
+}
+.userCase-card p {
+  font-size: 13px;
+  font-family: sans-serif;
+  transition: all 0.5s ease-in-out;
+}
+.userCase-card:hover {
+  background-color: #250f6b;
+  margin-top: -10px;
+}
+.userCase-card:hover p {
+  color: white;
+}
+
+
+
+
+/* ======== whats new slider section =========== */
+.swiper {
+  width: 100%;
+  height: 100%;
+  overflow:visible !important;
+  position: static !important;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--border-radius);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.whatsNew_slider .slide-item {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+}
+.whatsNew_slider .slide-item-text {
+  width: 70%;
+}
+.whatsNew_slider .slide-item-text .heading {
+  color: var(--btn1color);
+}
+.whatsNew_slider .slide-item-text .descripton {
+  color: var(--text-color);
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+}
+.read-btn {
+  border: 0px;
+  gap: 10px;
+  background:none;
+  text-decoration: none;
+  color: var(--btn1color);
+}
+.read-btn p{
+  color: var(--btn1color);
+  margin-top: -5px;
+}
+.whatsNew_slider .slide-item-img {
+  width: 30%;
+  height: 100%;
+}
+.swiper-button-next, 
+.swiper-button-prev {
+  color: #ff5b12 !important;
+  height: 30px;
+  width: 30px
+}
+.swiper-button-prev {
+  left: -20px !important;
+}
+.swiper-button-next{
+  right: -20px !important;
+}
+.swiper-button-next::after, 
+.swiper-button-prev::after {
+  content: '' !important;
+}
+
+
+
+/* ======= faq section ========= */
+.faq-item {
+  position: relative;
+  padding: 7px 10px;
+  cursor: pointer;
+  border-radius: 7px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: all 0.5s ease-in-out;
+  margin: 7px 0px;
+} 
+.faq-item  h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+.faq-item span {
+  position: absolute;
+  right: 5px;
+  top:10px;
+} 
+.faq-item span i {
+  transition: all 0.5s ease-in-out;
+}
+.faq-description {
+  margin: 0px;
+  height: 0px;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  padding-left: 20px;
+}
+.faq-item:hover  .faq-description {
+  height: 30px;
+}
+.faq-item:hover  span i  {
+  transform: rotate(-90deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============== footer ============== */
+footer {
+  background-color: #edeaea5d;
+}
+.footer-item{
+  list-style-type:none;
+  padding: 5px;
+  display: flex;
+  gap: 15px;
+  margin:  0px;
+}
+.footer-item li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+} 
+.footer-item li a:hover {
+  color:#ff5b12;
+}
+footer span i {
+  font-size: 25px;
+  color: #250f6b;
+  transition: all 0.3s ease-in-out;
+}
+footer span i:hover {
+  color:#ff5b12;
+}
+/* ======== sm-footer-container =========== */
+/* .accordion {
+  background: none !important;
+}
+.accordion-item {
+  background: none !important;
+}
+.accordion-button {
+  background: none !important;
+  color: white;
+  border-bottom: 1px solid;
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.accordion-button::after{
+  content: '';
+  margin-left: 0px;
+  width: 0px;
+}
+.accordion-button span {
+  margin-left: auto;
+  color: white;
+}
+.accordion-body {
+  color: rgb(192, 192, 192) !important;
+}
+.accordion-body ul {
+  padding: 0px;
+}
+.accordion-body ul li {
+  list-style-type: none;
+}
+.accordion-body ul li a {
+  text-decoration: none;
+  color: rgb(206, 206, 206);
+}
+
+.footer-item-container li a {
+  text-decoration: none;
+  font-size: 14px;
+  color:#b8b8b8 !important;
+  font-weight: 500 !important;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin-top: 8px !important;
+} 
+.icon-container a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight:400 !important;
+  color:#b8b8b8;
+}
+.footer-icon span i {
+  color: white;
+} */
+
+
+
+
+/* ========= responsive ========= */
+@media (min-width: 200px) and (max-width: 766px) {
+  .mainContenr {
+    padding-top: 80px;
+  }
+  /* ====== whats new slider =========== */
+  .swiper-button-prev {
+    left: 0px !important;
+  }
+  .swiper-button-next{
+    right: 0px !important;
+  }
+  .service-card1, .service-card2{
+    margin-left: 0px;
+  }
+  .service-card1, .service-card2 {
+    width: 100%;
+  }
+  .content-container {
+    top: 35%;
+  }
+  .iphone {
+    max-width: 500px;
+  }
+}

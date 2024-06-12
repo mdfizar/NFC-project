@@ -1,0 +1,159 @@
+/* ========= oder managment section ========== */
+.icon-box-border {
+  border-top: 2px solid gray;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+
+
+/* ========== pricing section ===========  */
+.pricing-card {
+  border: 1px solid gray;
+  border-radius: 30px;
+  padding:20px 40px;
+  transition: all 0.5s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.pricing-head {
+  width: 115px;
+  margin: auto;
+  text-align: center;
+}
+.pricing-head h {
+  font-weight: 600;
+
+}
+.pricing-head p {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* ======= hover effect ========= */
+.pricing-card:hover {
+  background-color: #ff5b12db;
+  color: white;
+}
+.pricing-card:hover button {
+  background-color: white;
+  color: #250f6b;
+  font-weight: 700;
+}
+.prigin-body {
+  padding: 0px 10px;
+  position: relative;
+}
+.prigin-body ul {
+  padding: 0px;
+}
+.prigin-body ul li {
+  list-style-type: none;
+  padding: 7px 0px;
+}
+.prigin-body ul li span {
+  margin-right: 10px;
+}
+.line {
+  height: 2px;
+  background-color: gray;
+}
+
+/* ========= our card section ========= */
+.our-card {
+  position: relative;
+}
+.oure-card-circle {
+  position: absolute;
+  left: 50%;
+  left: 50%;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  background-color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  z-index: 18;
+
+}
+.ourecard-card {
+  position: relative;
+  max-width: 100%;
+  border-radius: 15px;
+}
+.ourecard-card p {
+  position: absolute;
+  right: 50%;
+  top: 7%;
+  font-size: 20px;
+  font-weight: 700;
+  z-index: 20;
+  color: #ff5b12db;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+/* .ourecard-card h1 {
+  text-align: center;
+  margin-top: auto;
+  font-size: 7rem;
+  font-weight: 600;
+  font-family: roboto;
+} */
+.our-card-container>div {
+  padding: 2px !important;
+}
+/* .our-card-ovarly {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-color: firebrick;
+  border-radius: 15px;
+  opacity: 0.5;
+  transition: all 0.4s ease-in-out;
+} */
+.ourecard-card:hover p  {
+  opacity: 1;
+}
+
+
+/* ========= doverify-step section ==========  */
+.doverify-step-container>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.verify-setp-img {
+  width: 100%;
+}
+.doverify-step-description h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.verify-setp-arrow {
+  object-fit: contain;
+}
+#doverify-step-hover:hover #doverify-hover-item {
+ transform: scale(1.1);
+}
+#doverify-step-hover:hover .doverify-step-description {
+  padding-top: 30px;
+}
+#doverify-hover-item {
+  transition: all 0.5s ease-in-out;
+}
+.doverify-step-description {
+  padding-top: 20px;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+
+}
